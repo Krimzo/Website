@@ -1,3 +1,8 @@
-#testDIV {
+body {
+  overflow: hidden;
+}
+
+#bigTitle {
   text-align: center;
+  font-size: 30;
 }
