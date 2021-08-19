@@ -52,6 +52,7 @@ body {
   position: absolute;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  transition: 0.3s;
 }
 
 #resetButtonDiv:active {
@@ -123,6 +124,7 @@ body {
   position: absolute;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  transition: 0.3s;
 }
 
 #solveButtonDiv:active {
