@@ -38,24 +38,11 @@ body {
   padding: 2px;
 }
 
-#logoDiv {
-  position: relative;
-  padding: 3px;
+#siteName {
   height: 100%;
   width: 15%;
   float: left;
-}
-
-#logo {
-  margin-left: 10px;
-  float: left;
-  max-width: auto;
-  max-height: 100%;
-}
-
-#logoText {
-  height: 100%;
-  overflow: hidden;
+  text-align: center;
   font-size: 40px;
   font-family: "PermaMarker";
   display: flex;
@@ -138,8 +125,15 @@ body {
 }
 
 #steam {
-  overflow: hidden;
+  float: left;
   margin: 5px;
+  overflow: hidden;
+}
+
+#youtube {
+  float: left;
+  margin: 5px;
+  overflow: hidden;
 }
 
 #bigTitle {
