@@ -1,8 +1,158 @@
+@font-face {
+  font-family: 'PermaMarker';
+  src: url('../res/PermanentMarker.ttf');
+}
+
+a:link {
+  color: #0b1621;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0b1621;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+a:active {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+html,
 body {
+  height: 100%;
+  margin: 0;
   overflow: hidden;
+  position: relative;
+}
+
+#navbar {
+  width: 100%;
+  height: 8%;
+  margin: auto;
+  padding: 2px;
+}
+
+#logoDiv {
+  position: relative;
+  padding: 3px;
+  height: 100%;
+  width: 15%;
+  float: left;
+}
+
+#logo {
+  float: left;
+  max-width: auto;
+  max-height: 100%;
+}
+
+#logoText {
+  height: 100%;
+  overflow: hidden;
+  font-size: 40px;
+  font-family: 'PermaMarker';
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#menuItems {
+  width: 69%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#home {
+  width: 33%;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border-right: 2px solid #0b1621;
+}
+
+#projects {
+  width: 33%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border-right: 2px solid #0b1621;
+}
+
+#about {
+  width: 33%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+#social {
+  position: relative;
+  overflow: hidden;
+  width: 15%;
+  height: 100%;
+}
+
+#socialItems {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#github {
+  float: left;
+  margin: 5px;
+}
+
+#steam {
+  overflow: hidden;
+  margin: 5px;
 }
 
 #bigTitle {
   text-align: center;
-  font-size: 30;
+  font-size: 50px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
