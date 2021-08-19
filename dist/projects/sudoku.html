@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../res/Logo.png">
+    <link rel="stylesheet" href="css/Sudoku.css">
+    <script src="https://kit.fontawesome.com/60ff5bcb25.js" crossorigin="anonymous"></script>
+    <title>Krimzo's Website</title>
+</head>
+
+<body id="particleLayer">
+    <a href="https://www.krimzo.eu"><div id="siteName">krimzo.eu</div></a>
+    
+    <div id="resetButtonDiv">
+        <button id="reset" onclick="ResetInputs()">RESET</button>
+    </div>
+    <div id="game">
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input0"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input1"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input2"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input3"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input4"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input5"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input6"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input7"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input8"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input9"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input10"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input11"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input12"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input13"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input14"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input15"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input16"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input17"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input18"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input19"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input20"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input21"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input22"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input23"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input24"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input25"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input26"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input27"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input28"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input29"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input30"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input31"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input32"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input33"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input34"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input35"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input36"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input37"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input38"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input39"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input40"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input41"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input42"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input43"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input44"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input45"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input46"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input47"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input48"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input49"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input50"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input51"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input52"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input53"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input54"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input55"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input56"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input57"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input58"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input59"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input60"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input61"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input62"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input63"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input64"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input65"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input66"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input67"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input68"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input69"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input70"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input71"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input72"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input73"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input74"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input75"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input76"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input77"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input78"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input79"></div>
+        <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input80"></div>
+    </div>
+    <div id="solveButtonDiv">
+        <button id="solve">SOLVE</button>
+    </div>
+    
+    <script src="../js/Particles.js"></script>
+    <script src="js/MyParticles.js"></script>
+    <script src="js/Sudoku.js"></script>
+</body>
+
+</html>
