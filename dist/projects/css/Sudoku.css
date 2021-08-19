@@ -44,40 +44,40 @@ body {
 }
 
 #resetButtonDiv {
-  width: 15%;
-  height: 100px;
-  top: 40%;
-  left: 7%;
+  width: 4%;
+  height: calc(80% + 1px);
+  top: 50%;
+  left: 27%;
   margin: 0;
   position: absolute;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
+#resetButtonDiv:active {
+  left: 29%;
+}
+
 #reset {
   width: 100%;
   height: 100%;
   display: inline-block;
-  padding: 15px 25px;
+  padding: 25%;
   font-size: 30px;
+  font-family: "FreeMono", monospace;
   cursor: pointer;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   outline: none;
-  color: #fff;
+  color: #0b1621;
   background-color: #0b1621;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 7px #999;
+  transition: 0.3s;
 }
 
 #reset:hover {
-  background-color: #132a41;
-}
-
-#reset:active {
-  box-shadow: 0 2px #666;
-  transform: translateY(4px);
+  color: white;
 }
 
 #game {
@@ -115,38 +115,38 @@ body {
 }
 
 #solveButtonDiv {
-  width: 14%;
-  height: 100px;
-  top: 40%;
-  right: 7%;
+  width: 4%;
+  height: calc(80% + 1px);
+  top: 50%;
+  right: 27%;
   margin: 0;
   position: absolute;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
+#solveButtonDiv:active {
+  right: 29%;
+}
+
 #solve {
   width: 100%;
   height: 100%;
   display: inline-block;
-  padding: 15px 25px;
+  padding: 25%;
   font-size: 30px;
+  font-family: "FreeMono", monospace;
   cursor: pointer;
-  text-align: center;
+  text-align: right;
   text-decoration: none;
   outline: none;
-  color: #fff;
+  color: #0f5f30;
   background-color: #0f5f30;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 7px #999;
+  transition: 0.3s;
 }
 
 #solve:hover {
-  background-color: #1a9e4d;
-}
-
-#solve:active {
-  box-shadow: 0 2px #666;
-  transform: translateY(4px);
+  color: white;
 }
