@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'PermaMarker';
-  src: url('../res/PermanentMarker.ttf');
+  font-family: "PermaMarker";
+  src: url("../res/PermanentMarker.ttf");
 }
 
 a:link {
@@ -56,7 +56,7 @@ body {
   height: 100%;
   overflow: hidden;
   font-size: 40px;
-  font-family: 'PermaMarker';
+  font-family: "PermaMarker";
   display: flex;
   justify-content: center;
   align-content: center;
@@ -155,4 +155,54 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+#projectContainer {
+  width: 95%;
+  height: 90%;
+  padding: 2px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectDiv {
+  width: 18%;
+  height: 30%;
+  margin: 10px;
+  border: 3px solid #0b1621cc;
+  border-radius: 20px;
+  background: white;
+}
+
+.projectName {
+  width: 100%;
+  height: 12%;
+  text-align: center;
+  font-size: 27px;
+  font-family: "Andale Mono", monospace;
+  border-bottom: 1px solid #0b1621cc;
+  border-radius: 7px;
+}
+
+.projectImageDiv {
+  width: 100%;
+  height: 88%;
+  position: relative;
+}
+
+.projectImage {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
