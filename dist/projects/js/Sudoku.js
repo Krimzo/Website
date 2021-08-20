@@ -14,7 +14,7 @@ function CheckInputValue(id) {
                 return;
             }
         }
-        if(tempInput.value == " " && id != "input80"){
+        if(tempInput.value == " " && id != "input80") {
             document.getElementById("input" + (parseInt(id.substring(5)) + 1)).select();
         }
         tempInput.value = "";
