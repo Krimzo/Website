@@ -15,10 +15,10 @@
     <a href="https://www.krimzo.eu"><div id="siteName">krimzo.eu</div></a>
     
     <div id="resetButtonDiv">
-        <button id="reset" onclick="ResetInputs()"><br>R<br>E<br>S<br>E<br>T</button>
+        <button id="reset" onmousedown="ResetInputs()"><br>R<br>E<br>S<br>E<br>T</button>
     </div>
     <div id="solveButtonDiv">
-        <button id="solve"><br>S<br>O<br>L<br>V<br>E</button>
+        <button id="solve" onmousedown="SolveSudoku()"><br>S<br>O<br>L<br>V<br>E</button>
     </div>
     <div id="game">
         <div class="numInputDiv"><input type="text" maxlength="1" oninput="CheckInputValue(id)" class="numInput" id="input0"></div>
